@@ -1,0 +1,7 @@
+# requirements.txt
+
+Django>=4.0
+yfinance
+beautifulsoup4
+requests
+psycopg2-binary

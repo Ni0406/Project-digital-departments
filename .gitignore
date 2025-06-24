@@ -1,0 +1,43 @@
+# Python
+*.pyc
+__pycache__/
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+*.egg-info/
+.coverage
+.tox/
+.mypy_cache/
+.pytest_cache/
+htmlcov/
+.nox/
+
+# Django
+*.log
+*.sqlite3          # Если вы используете SQLite для локальной разработки
+media/             # Загружаемые пользователями файлы
+static_root/       # Сгенерированные collectstatic
+staticfiles/       # Еще одно возможное имя для сгенерированных статических файлов
+
+# IDE
+.idea/             # PyCharm
+.vscode/           # VS Code
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store          # macOS
+.Trashes           # macOS
+ehthumbs.db        # Windows
+Thumbs.db          # Windows
+
+# Environment variables / sensitive data
+.env               # Если используете .env файл для переменных окружения
+.env.local         # Вариации
+local_settings.py  # Если используете отдельный файл для локальных настроек
