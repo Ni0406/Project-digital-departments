@@ -127,3 +127,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# --- Настройки для Telegram ---
+TELEGRAM_BOT_TOKEN = '7529781887:AAFPLcAqzaLVUWMxkSA1crcTwlGGv1Bfuc0'
+TELEGRAM_CHAT_ID = '@fix_our_Profit'
